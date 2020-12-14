@@ -4,9 +4,18 @@
   <head><title>9B CNFB</title>
   <link href="ctf.css" rel="stylesheet" type="text/css" />
   <script>
+    let muzica;
     window.onload = function(){ 
-      document.getElementById("muzica").volume = 0.1;
+      muzica = document.getElementById("muzica");
+      muzica.volume = 0.1; 
     }
+
+    muzica.addEventListener('ended', function(){
+      muzica.pause();
+      muzica.src = "jinglebells1.mp3";
+      muzica.load();
+      muzica.play();
+    });
   </script>
   </head>
   <body>

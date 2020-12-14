@@ -1,0 +1,40 @@
+html {
+    min-height: 100%;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+#orar {
+    margin: auto;
+    margin-top: 10%;
+    width: 75%;
+}
+
+#orar tr:nth-child(even) {
+    background-color: #ccc  ;
+}
+
+#orar tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#orar th {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://external-preview.redd.it/ifaTq8slYEg8WhYvw-VwIT1CkbZ3xhcP37RjUm7vKKw.jpg?auto=webp&s=c5bebb525f07ea88b7037c1e93191960dbcf1191");
+    /* background-image: url("https://lh6.googleusercontent.com/13lF5r2kbL0HU70jaCRKgpjzRgq82mjXVT8oTEp9WFWJ3L-ej4PZr91EmUkQ_K1tKyR-_KI=w16383"); */
+}
